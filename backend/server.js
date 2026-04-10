@@ -17,7 +17,7 @@ const app = express();
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: true,
+  origin: "https://mini-hr-tool-frontend.onrender.com",
   credentials: true
 }));
 
