@@ -15,11 +15,14 @@ connectDB();
 const app = express();
 
 // Security middleware
-app.use(helmet());
 app.use(cors({
   origin: "https://mini-hr-tool-frontend.onrender.com",
   credentials: true
 }));
+app.use(helmet({
+  crossOriginResourcePolicy: false
+}));
+
 
 // Rate limiting
 const limiter = rateLimit({
