@@ -79,8 +79,8 @@ Attendance: userId, date, status(Present/Absent) - unique user/date
 ```
 
 ## 📦 Deployment
-**Backend:** Railway/Render/Heroku (env vars)
-**Frontend:** Vercel/Netlify
+**Backend:** Render (env vars)
+**Frontend:** Render
 **DB:** MongoDB Atlas (free tier)
 
 ## 🎨 UI/Animations
@@ -98,8 +98,7 @@ Attendance: userId, date, status(Present/Absent) - unique user/date
 - No pagination (for <100 users)
 - No file upload (resume etc.)
 
-**Time:** ~4 hours AI engineering
-**AI:** BLACKBOXAI - Senior MERN Developer
+**AI Tool :** ChatGPT 
 
 **Live Demo:** localhost:3000 🚀
 
