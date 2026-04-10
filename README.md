@@ -99,6 +99,7 @@ Attendance: userId, date, status(Present/Absent) - unique user/date
 - No file upload (resume etc.)
 
 **AI Tool :** ChatGPT 
+**Time Spent :** 2 hours
 
 **Live Demo:** localhost:3000 🚀
 
