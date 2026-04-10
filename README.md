@@ -98,7 +98,7 @@ Attendance: userId, date, status(Present/Absent) - unique user/date
 - No pagination (for <100 users)
 - No file upload (resume etc.)
 
-**AI Tool :** ChatGPT 
+**AI Tool :** ChatGPT and Blackbox
 
 **Time Spent :** 4 hours
 
