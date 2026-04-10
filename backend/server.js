@@ -17,7 +17,7 @@ const app = express();
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' ? 'https://your-frontend-url.com' : 'http://localhost:3000',
+  origin: process.env.NODE_ENV === 'production' ? ['https://mini-hr-tool-frontend.onrender.com', 'https://mini-hr-tool-frontend.onrender.com'] : ['http://localhost:3000', 'http://localhost:5173'],
   credentials: true
 }));
 
